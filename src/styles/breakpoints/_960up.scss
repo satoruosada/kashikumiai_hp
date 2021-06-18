@@ -1,0 +1,309 @@
+/******************************************************************
+Stylesheet: 960px以上のモニタで適用
+******************************************************************/
+@media (max-width: 960px) {
+ 
+  .mobile-menu {
+    &__btn {
+      display: block;
+    }
+  }
+  .header {
+    &__nav {
+      display: none;
+    }
+    &__inner {
+		width: 90%;
+		margin: 0 auto;
+	}
+  }
+
+  .hero {
+	  &__mizutama {
+         top: 25%;
+
+		 &-right {
+			 width: 30vw;
+			 right: -12%;
+		 }
+    }
+  }
+
+  .main {
+	  &__mizutama {
+		  width: 30vw;
+	  }
+  }
+  .list {
+	  &__mizutama {
+		  top: 100%;
+	  }
+  }
+
+  .footer {
+	  &__li {
+
+		& > a {
+			font-size: 13px;
+		}
+	  }
+  }
+
+  // 下の画像
+  .bottom-image {
+	flex-direction: column;
+	&__1 {
+		width: 100%;
+	}
+  }
+
+//   組合概要
+	.company__mizutama-right {
+	    bottom: 900px;
+	}
+
+	.company {
+		&__table {
+			display: block;
+		}
+		&__th {
+			display: block;
+			border-bottom: none;
+			
+		}
+		&__td {
+			display: block;
+			padding:0 20px 15px;
+		}
+	}
+  
+	.history {
+		&__li {
+			display: block;
+			margin: 15px 0;
+			padding: 5px 0;
+		}
+		&__year {
+			display: inline-block;
+			
+			 &-same {
+            	&-s42 {
+                display: block;
+            }
+        	}
+		}
+		&__year {
+			width: 75px;
+		}
+		&__month {
+			display: inline-block;
+		}
+		&__txt {
+			display: block;
+			margin: 10px 0;
+
+		}
+	}
+  
+
+  // 会員一覧
+    .company-name {
+
+			&__mizutama {
+				&-right {
+					bottom: 250px;
+				}
+			}
+			&__table {
+				position: relative;
+
+				& thead {
+					display: none;
+				}
+
+				& tbody {
+					display: block;
+					width: 100%;
+				}
+
+
+
+				& tr {
+					display: flex;
+					flex-direction: column;
+					flex-wrap: nowrap;
+					justify-content: center;
+					align-items: center;
+					position: relative;
+				}
+
+
+				& th {
+					font-size: 14px;
+					padding: 10px;
+					display: block;
+				}
+			}
+
+			&__tr {
+				padding: 20px 10px;
+				& > td {
+					display: flex;
+					width: 100%;
+					padding: 0%;
+					margin: 5px 0;
+				}
+			}
+    }
+	
+	.company-name__company {
+		order: 1;
+		position: relative;
+	
+		&::before {
+			content: '社名・屋号';
+			color: #534741;
+			font-weight: bold;
+			display: block;
+		    width: 100px;
+		}
+	}
+	.company-name__adress {
+		order: 3;
+		position: relative;
+	
+		&::before {
+			content: '所在地';
+			color: #534741;
+			font-weight: bold;
+			display: block;
+			width: 100px;
+		}
+	}
+	.company-name__tel {
+		order: 3;
+		position: relative;
+		
+		&::before {
+			content: 'TEL';
+			color: #534741;
+			font-weight: bold;
+			display: block;
+			width: 100px;
+		}
+	}
+	.company-name__fax {
+		order: 3;
+		position: relative;
+	
+		&::before {
+			content: 'FAX';
+			color: #534741;
+			font-weight: bold;
+			display: block;
+			width: 100px;
+		}
+	}
+	.company-name__kubun {
+		order: 2;
+		position: relative;
+	
+		&::before {
+			content: '区分';
+			color: #534741;
+			font-weight: bold;
+			display: block;
+			width: 100px;
+		}
+	}
+	.company-name__txt-adress{
+		width: calc(100% - 100px);
+	}
+
+	// .icon-menu {
+	// 	&__hoka {
+	// 		width: 22px;
+    // 		height: 22px;
+    		
+    // 		border-radius: 50%;
+    // 		color: #ffffff;
+    // 		text-align: center;
+    // 		line-height: 22px;
+    // 		display: inline-block;
+	// 		font-size: 14px;
+	// 	}
+	// 	&__yougashi {
+	// 		width: 22px;
+    // 		height: 22px;
+    	
+    // 		border-radius: 50%;
+    // 		color: #ffffff;
+    // 		text-align: center;
+    // 		line-height: 22px;
+    // 		display: inline-block;
+	// 		font-size: 14px;
+	// 	}
+	// 	&__wagashi {
+	// 		width: 22px;
+    // 		height: 22px;
+    		
+    // 		border-radius: 50%;
+    // 		color: #ffffff;
+    // 		text-align: center;
+    // 		line-height: 22px;
+    // 		display: inline-block;
+	// 		font-size: 14px;
+	// 	}
+	// 	&__genryou {
+	// 		width: 22px;
+    // 		height: 22px;
+    		
+    // 		border-radius: 50%;
+    // 		color: #ffffff;
+    // 		text-align: center;
+    // 		line-height: 22px;
+    // 		display: inline-block;
+	// 		font-size: 14px;
+	// 	}
+	// }
+
+	.menu {
+		&__icon {
+			&-ul {
+				margin: 60px 0 0 20px;
+			}
+		}
+	}
+
+	.history {
+		&__mizutama {
+
+			&-left {
+				left: 60px;
+			}
+		}
+	}
+	
+
+	// お問い合わせ
+	.contact {
+		&__btn {
+			width: 80%;
+		}
+	}
+
+	
+ 
+}
+
+
+@media (max-width: 990px) {
+
+	.header {
+		&__li {
+			font-size: 14px;
+			margin-left:30px;
+		}
+	}
+}
+

@@ -1,0 +1,154 @@
+/******************************************************************
+Stylesheet: 480px以上(スマホの横向き)のモニタで適用
+******************************************************************/
+@media (max-width: 480px) {
+
+   .br {
+       display: none;
+   }
+   .footer {
+       &__ul {
+        //    flex-direction: column;
+        //    align-items: flex-start;
+        //    margin: 0 auto;
+        //    padding: 0;
+        //    width: 50%;
+       }
+
+       &__li {
+           margin-bottom: 20px;
+            &:first-child {
+            border-left: 1px dotted #C7B299;
+        }
+        & > a {
+            font-size: 14px;
+        }
+       }
+
+       &__logo {
+           &-backimage {
+               margin-bottom: 30px;
+           }
+       }
+   }
+
+    // 組合概要
+    .company {
+        &__table {
+            margin-bottom: -100px;
+        }
+    }
+    
+
+    .history__table-year {
+         width: 24%;
+    }
+    .history {
+        &__mizutama {
+            &-right {
+                bottom: 800px;
+            }
+        }
+    }
+
+    // 会員一覧
+    .company {
+        
+       &__span {
+           display: block;
+       }
+    }
+    .company-name__table td {
+        font-size: 15px;
+    }
+
+    // 入会案内
+    .guidance {
+        &__contact {
+            font-size: 16px;
+            padding-top: 6px;
+
+            &-form {
+                width: 100%;
+                margin: 90px auto 0;
+    
+            }
+
+             & > a {
+            font-size: 28px;
+            }
+        }
+        &__date {
+            display: block;
+            font-size: 16px;
+        }
+    }
+
+    // お問い合わせ
+    .contact {
+       
+        &__tel {
+            font-size: 20px;
+        }
+        &__number {
+            font-size: 25px;
+        }
+        &__tantouname {
+            font-size: 13px;
+        }
+        &__des {
+            font-size: 16px;
+            text-align: initial;
+            
+        }
+    }
+}
+
+// エラーメッセージ
+.hero {
+    &__title {
+        &-error {
+            text-align: center;
+            font-size: 20px;
+        }
+    }
+}
+.error {
+    &__message {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 460px) {
+    .company__mizutama-left {
+       bottom: 200px;
+    }
+}
+
+@media (max-width: 420px) {
+    .company-name__txt-adress {
+        width: 160px;
+        font-size: 13px;
+       
+    }
+    
+    
+}
+@media (max-width: 400px) {
+    .menu {
+        &__icon {
+            &-ul {
+                width: 100px;
+            }
+        }
+    }
+}
+@media(max-width:370px) {
+    .history {
+        &__table {
+            &-year {
+                width: 24%;
+            }
+        }
+    }
+}

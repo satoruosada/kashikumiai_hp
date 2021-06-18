@@ -1,0 +1,68 @@
+/******************************************************************
+Stylesheet: 1280px以上のモニタで適用
+******************************************************************/
+
+@media (max-width: 1280px) {
+	.header {
+		&__li {
+		
+		}
+	}
+	.company-name__tr > td {
+   		 padding: 10px 20px;
+	}
+}
+
+@media (max-width: 1100px) {
+	.company-name {
+		 &__table {
+        	& th {
+        	    text-align: left;
+        	    padding-left: 20px;
+       		 }
+		 }
+  }
+  .company-name__adress {
+		font-size: 14px;
+	}
+	.company-name__tel {
+		font-size: 14px;
+	}
+	.company-name__fax {
+		font-size: 14px;
+	}
+	.company-name__kubun {
+		font-size: 14px;
+	}
+}
+
+@media (max-width:1084px) {
+	.company-name__tr > td {
+    	padding: 10px 15px;
+	}
+	
+}
+
+@media (max-width: 1030px) {
+	.company-name__tr > td {
+    padding: 10px 14px;
+	}
+	.company-name__adress {
+		order: 3;
+		position: relative;
+		margin-left: 40px;
+	}
+	.company-name__tel {
+		font-size: 14px;
+	}
+	.company-name__fax {
+		font-size: 14px;
+	}
+	.company-name__kubun {
+		order: 2;
+		position: relative;
+		margin-left: 40px;
+	}
+}
+
+

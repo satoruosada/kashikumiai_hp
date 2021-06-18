@@ -1,0 +1,136 @@
+@media (max-width: 780px) {
+ 
+    .header {
+        &__li {
+            font-size: 14px;
+        }
+    }
+    .hero {
+        &__mizutama {
+            
+        }
+    }
+
+    .main {
+        &__inner {
+            width: 100%;
+        }
+
+        &__mizutama {
+            width: 30vw;
+            left: -6%;
+        }
+    }
+    .list {
+        &__panel {
+            margin: 80px 0 0 0;
+            width: 70%;
+            &-wrapper {
+                flex-direction: column;
+            }
+        }
+        &__mizutama {
+            bottom: -8%;
+            right: 10%;
+            width: 30vw;
+        }
+    }
+
+    .footer {
+        &__li {
+            padding: 0 10px;
+        }
+        &__company {
+           margin-bottom: 30px;
+           width: 100%;
+           text-align: center;
+           &-wrapper {
+               flex-direction: column;
+           }
+           &-tel {
+               font-size: 15px;
+           }
+       }
+    }
+
+    // 組合概要
+    .history {
+        &__table {
+            &-year {
+                width: 13%;
+            }
+        }
+    }
+
+    // 会員一覧
+    .company {
+        &-name {
+            &__table {
+
+               
+            }
+        }
+    }
+    .btn {
+        &__circle {
+            &-tobu {
+                width: 100%;
+            }
+        }
+    }
+    .btn-eria {
+        &__wrapper  {
+            flex-direction: column;
+
+            & > a {
+                margin-bottom: 30px;
+                width: 100%;
+            }
+        }
+    }
+    .btn__white {
+        margin: 0;
+        width: 100%;
+    }
+
+    .menu {
+        &__wagashi {
+            &-li {
+                &-name {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+
+
+    // 入会案内
+    .guidance__contact-form {
+        width: 100%;
+    }
+
+
+}
+
+@media(max-width:790px) {
+    .history {
+        &__table {
+            &-year {
+                width: 15%;
+            }
+        }
+    }
+}
+
+@media(max-width:750px) {
+    .fixed__fuji-images {
+    background-position: 0 -70px;
+    
+}
+}
+
+@media (max-width:600px) {
+    .fixed__fuji-images {
+    background-position: 0;
+    }
+}

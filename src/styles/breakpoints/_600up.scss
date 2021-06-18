@@ -1,0 +1,282 @@
+/******************************************************************
+Stylesheet: 600px以上のタブレットやモニタで適用
+******************************************************************/
+@media (max-width: 600px) {
+
+    .header {
+        height: 80px;
+    }
+
+    .hero {
+        padding-top: 80px;
+
+        &__brownimages {
+            height: 120px;
+        }
+
+        &__title {
+            line-height: 120px;
+            &-main {
+                font-size: 28px;
+            }
+        }
+    }
+
+     .main {
+        &__li {
+            & > a {
+                display: block;
+            }
+        }
+        &__txt {
+            padding:0;
+        }
+    }
+ 
+    .hero {
+        padding-left: 0;
+
+        &__mizutama {
+            display: none;
+            &-right {
+                width: 30vw;
+                right: -12%;
+            }
+        }
+    }
+
+    .fixed {
+       &__fuji {
+           &-images {
+       
+               &::before {
+                   padding-top: 50%;
+               }
+           }
+       }
+    }
+
+    .footer {
+
+        &__ul {
+            width: 100%;
+            flex-wrap: wrap;
+            
+        }
+        &__li {
+            width: 33%;
+            margin-bottom: 20px;
+            &:first-child {
+            border-left: 1px dotted #C7B299;
+            }
+            & > a {
+                font-size: 16px;
+            }
+        }
+    }
+
+    // 組合概要
+    .company {
+        margin-bottom: -150px;
+    }
+    .history {
+        &__mizutama {
+            &-right {
+                // bottom: 500px;
+            }
+        }
+    
+    }
+
+    // 会員一覧
+    .company-name {
+
+        &__table {
+            margin: 0 auto;
+            width: 90%;
+
+            & th {
+                font-size: 15px;
+                padding: 0;
+            }
+
+            & td {
+                font-size: 15px;
+               
+            }
+        }
+    }
+   
+    .menu {
+
+        &__icon {
+            flex-wrap: wrap;
+            justify-content: center;
+
+            &-md {
+                width: 22px;
+                height: 22px;
+                font-size: 12px;
+                line-height: 22px;
+            }
+
+            &-ul {
+                margin: 35px 0 0 20px;
+            }
+        }
+    }
+
+    // 入会案内
+    .guidance {
+
+        &__inner {
+            width: 90%;
+        }
+        &__contact {
+            font-size: 14px;
+        }
+    }
+
+    // お知らせ
+    .information {
+        &__inner {
+            width: 90%;
+        }
+    }
+
+    // お問い合わせ
+    .contact {
+        &__des {
+            font-size: 14px;
+        }
+    }
+
+}
+
+@media(max-width:650px) {
+    .menu {
+
+        &__icon {
+            &-round {
+                   
+                   &-wagashi {
+                       &-ttl {
+                           font-size: 13px;
+                       }
+                   }
+                   &-yougashi {
+       
+                       &-ttl {
+                            font-size: 13px;
+                       }
+       
+                   }
+                   &-genzairyou {
+                       &-ttl {
+                            font-size: 13px;
+                       }
+       
+                   }
+                   &-hoka {
+                       &-ttl {
+                            font-size: 13px;
+                       }
+                   }
+            }
+        }
+
+    }
+
+}
+
+
+@media(max-width:620px) {
+    .menu {
+
+        &__icon {
+            &-round {
+                   
+                   &-wagashi {
+                       &-ttl {
+                           font-size: 13px;
+                       }
+                   }
+                   &-yougashi {
+       
+                       &-ttl {
+                            font-size: 13px;
+                       }
+       
+                   }
+                   &-genzairyou {
+                       &-ttl {
+                            font-size: 13px;
+                       }
+       
+                   }
+                   &-hoka {
+                       &-ttl {
+                            font-size: 13px;
+                       }
+                   }
+            }
+        }
+
+    }
+
+}
+
+
+@media (max-width: 660px) {
+    .main {
+        &__txt {
+            & > p {
+                font-size: 13px;
+            }
+        }
+    }
+
+    .history {
+        &__table {
+            &-year {
+                font-size: 15px;
+            }
+            &-date {
+                font-size: 15px;
+            }
+            &-txt {
+                font-size: 15px;
+            }
+        }
+    }
+
+    // お問い合わせ
+    .contact {
+        &__time {
+            display: block;
+        }
+    }
+
+
+}
+
+.hero {
+    &__title {
+        &-error {
+            
+            & > span {
+                display: block;
+            }
+        }
+    }
+}
+
+@media(max-width:550px) {
+    .history {
+        &__table {
+            &-year {
+                width: 20%;
+            }
+        }
+    }
+}
